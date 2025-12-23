@@ -1,0 +1,5 @@
+# Ignorer l'exécutable mon_programme
+mon_programme
+
+# Ignorer le dossier obj
+obj/
