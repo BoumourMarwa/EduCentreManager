@@ -1,3 +1,19 @@
+# EduCentreManager
+
+EduCentreManager is a C++ console-based application designed to manage an educational center.
+It provides an interactive command-line interface to manage teachers, students, groups, and sessions
+
+## Packaging the app into an image via docker
+```console
+$ docker build -t gestion-centre .
+```
+
+## Start a container using the created docker image in interactive mode
+```console
+$ docker run -it gestion-centre
+```
+## Example Commands
+
 ajouterEnseignant 1 ahmed math Bac
 ajouterEnseignant 2 achraf math Bac
 ajouterEnseignant 3 hicham physique Bac
